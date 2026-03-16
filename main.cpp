@@ -106,6 +106,7 @@ int main(int argc, char* args[]) {
 		}
 		else if (gameState.getScreenType() == ScreenType::Map) {
 			cout << "\nselected MAP\n";
+			// will change this dynamically. Must add "currentMap" field to GameState. And create an enum (or something) of possible currentMap options.
 			MapScreen mapScreen = MapScreen("forest");
 			mapScreen.run();
 		}else if (gameState.getScreenType() == ScreenType::Battle) {
