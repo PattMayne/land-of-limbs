@@ -155,7 +155,7 @@ MapForm forestMap() {
 	SDL_Surface* pathSurface002 = IMG_Load("data/maps/forest/path_002.png");
 	SDL_Surface* pathSurface003 = IMG_Load("data/maps/forest/path_003.png");
 
-	/* DO ERROR CHECKS */
+	/* TO DO: create ERROR CHECKS */
 
 	forestMap.floorTextures = {
 		SDL_CreateTextureFromSurface(ui.getMainRenderer(), floorSurface001),
@@ -203,7 +203,6 @@ MapForm forestMap() {
 
 	for (LimbForm limbForm : forestMap.nativeLimbs) {
 
-		/* DEER LIMBS */
 
 		if (
 			limbForm.slug == "deer_leg_4" ||
@@ -271,19 +270,22 @@ MapForm forestMap() {
 	forestMap.suits.emplace_back(CharacterType::Suit, fairyLimbs, "Fairy", SuitType::Fairy);
 	forestMap.suits.emplace_back(CharacterType::Suit, owlLimbs, "Owl", SuitType::Owl);
 
-
-
-
 	return forestMap;
 }
 
 /* Get the basic Map data struct based on slug ID parameter value. */
 export MapForm getMapFormFromSlug(string slug) {
+
+	// TO DO: instead of using strings as identifiers,
+	// make an enum which accounts for all maps.
+
 	if (slug == "forest") {
 		return forestMap();
 	}
+
 	cout << "string check FAILED\n";
-	// Temporary DEFAULT map... deal with error (faulty slug) somehow instead...
+	// Temporary DEFAULT map...
+	// TO DO: deal with error (faulty slug) somehow instead...
 	return forestMap();
 }
 

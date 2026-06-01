@@ -79,6 +79,12 @@ Old code for the Java version is here: [Limbs Cyberpunk](https://github.com/Patt
     - [ ] The paths should be highway like burnt american or australian desert.
 - [ ] Friendly and Hostile NPC behavior
     - [ ] make ALL friendly for testing
+- [ ] CITY / URBAN MAP
+    - [ ] roads should have directionality. For each path check adjacent paths to calculate directionality.
+        - [ ] straight, corner (4 directions), or criss-cross
+        - [ ] A similar algorithm can make masses of rock with edges and corners.
+## BUGS
+- [ ] Shrine suit for Fairy sometimes doesn't build properly.
 
 ### Long-Range Notes & Plans
 

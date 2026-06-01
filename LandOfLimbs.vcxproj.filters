@@ -80,6 +80,7 @@
     </None>
     <None Include="packages.config" />
     <None Include="data\schema.sql" />
+    <None Include="data\maps\desert\map_desert.json" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\json.hpp">

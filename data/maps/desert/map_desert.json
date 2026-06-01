@@ -1,0 +1,148 @@
+{
+  "TITLE": "Cruel Desert",
+
+  "TILES": {
+
+    "FLOORS": [
+      "floor_001.png"
+    ],
+
+    "WALLS": [
+      "wall_001.png"
+    ]
+  },
+  "SUITS": [
+    {
+      "NAME": "Deer",
+      "LIMBS": [
+        {
+          "NAME": "Deer Leg 4",
+          "FILE": "deer_leg_4.png",
+          "JOINTS": [
+            [ 144, 81 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Leg 3",
+          "FILE": "deer_leg_3.png",
+          "JOINTS": [
+            [ 131, 71 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Leg 2",
+          "FILE": "deer_leg_2.png",
+          "JOINTS": [
+            [ 78, 46 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Leg 1",
+          "FILE": "deer_leg_1.png",
+          "JOINTS": [
+            [ 52, 43 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Head",
+          "FILE": "deer_head.png",
+          "JOINTS": [
+            [ 93, 129 ],
+            [ 117, 33 ],
+            [ 90, 37 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Body",
+          "FILE": "deer_body.png",
+          "JOINTS": [
+            [ 184, 86 ],
+            [ 183, 130 ],
+            [ 138, 138 ],
+            [ 44, 112 ],
+            [ 57, 114 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Antler 1",
+          "FILE": "deer_antler_1.png",
+          "JOINTS": [
+            [ 107, 78 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Deer Antler 2",
+          "FILE": "deer_antler_2.png",
+          "JOINTS": [
+            [ 99, 86 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        }
+      ]
+    },
+    {
+      "NAME": "Bear",
+      "LIMBS": [
+        {
+          "NAME": "Bear Head",
+          "FILE": "bear_head.png",
+          "JOINTS": [
+            [ 101, 115 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Bear Body",
+          "FILE": "bear_body.png",
+          "JOINTS": [
+            [ 100, 7 ],
+            [ 68, 35 ],
+            [ 134, 27 ],
+            [ 64, 164 ],
+            [ 123, 159 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Bear Left Arm",
+          "FILE": "bear_arm_left.png",
+          "JOINTS": [
+            [ 59, 85 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Bear Right Arm",
+          "FILE": "bear_arm_right.png",
+          "JOINTS": [
+            [ 134, 59 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Bear Left Leg",
+          "FILE": "bear_leg_left.png",
+          "JOINTS": [
+            [ 67, 104 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        },
+        {
+          "NAME": "Bear Right Leg",
+          "FILE": "bear_leg_right.png",
+          "JOINTS": [
+            [ 143, 105 ]
+          ],
+          "POSITION": [ 0, 0 ]
+        }
+      ]
+    }
+  ]
+}

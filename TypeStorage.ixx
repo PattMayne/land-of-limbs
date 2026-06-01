@@ -140,7 +140,7 @@ export enum class ConfirmationButtonType {
 
 
 
-/* to avoid recursive self-referential class design, I'll make a Struct to hold information about parent Screens.
+/* A Struct to hold information about parent Screens, to avoid recursive self-referential class design.
 * id refers to the id of the Map or Battle object in the database.
 * Screens will have the power to set ScreenStruct in GameState, not relying on main.cpp to make the change.
 	*/

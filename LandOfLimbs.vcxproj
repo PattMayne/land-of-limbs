@@ -162,6 +162,7 @@
     <ClCompile Include="UI.ixx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="data\maps\desert\map_desert.json" />
     <None Include="data\maps\map_forest.json" />
     <None Include="data\resources.json" />
     <None Include="data\schema.sql" />
